@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickSnap</string>
+    <string name="settings">Settings</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_sound_fx">Disable shutter sound</string>
+    <string name="settings_sound_fx_summary">Disabling the shutter sound is an experimental feature and may not work on all phones</string>
+    <string name="settings_preview_animation">Disable preview animation</string>
+    <string name="settings_preview_animation_summary">Disable the animation shown after taking a photo</string>
+    <string name="settings_get_lightbox">Get Lightbox</string>
+    <string name="settings_get_lightbox_summary">Download the Lightbox app from the Android Market to apply effects and share your photos with friends on Facebook &amp; Twitter</string>
+        
+    <!-- title for the dialog showing the error of camera hardware -->
+    <string name="camera_error_title">Camera error</string>
+
+    <!-- message for the dialog showing the error of camera hardware -->
+    <string name="cannot_connect_camera">Cannot connect to camera.</string>
+
+    <!-- label for the folder that contains Camera pictures in the gallery -->
+    <string name="gallery_camera_bucket_name">Camera pictures</string>
+
+    <!-- label for the folder that contains Camera videos in the gallery -->
+    <string name="gallery_camera_videos_bucket_name">Camera videos</string>
+
+    <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
+    <string name="no_storage" product="nosdcard">Please mount USB storage before using the camera.</string>
+    <!-- alert to the user that an SD card must be installed before using the camera -->
+    <string name="no_storage" product="default">Please insert an SD card before using the camera.</string>
+
+    <!-- alert to the user that the USB storage is too full to complete the operation [CHAR LIMIT=NONE] -->
+    <string name="not_enough_space" product="nosdcard">Your USB storage is full.</string>
+    <!-- alert to the user that the SD card is too full to complete the operation -->
+    <string name="not_enough_space" product="default">Your SD card is full.</string>
+
+    <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+    <string name="preparing_sd" product="nosdcard">Preparing USB storage\u2026</string>
+    <!-- alert to the user that the SD card is being disk-checked -->
+    <string name="preparing_sd" product="default">Preparing SD card\u2026</string>
+
+    <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+    <string name="access_sd_fail" product="nosdcard">Failed to access USB storage.</string>
+    <!-- alert to the user that the camera fails to read or write the SD card. -->
+    <string name="access_sd_fail" product="default">Fail to access SD card.</string>
+
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_title">Restore defaults</string>
+    <string name="confirm_restore_message">Camera settings will be restored to defaults.</string>
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">Back</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">Front</string>
+
+    <!-- Settings screen, Camera setting category title -->
+    <string name="pref_camera_settings_category">Camera settings</string>
+
+    <!--
+         Default picture quality setting. See
+         pref_camera_jpegquality_entryvalues for possible values
+    -->
+    <string name="pref_camera_jpegquality_default" translatable="false">superfine</string>
+
+    <!-- Default focus mode setting. -->
+    <string name="pref_camera_focusmode_default" translatable="false">auto</string>
+
+    <!-- Settings screen, Focus mode title -->
+    <string name="pref_camera_focusmode_title">Focus mode</string>
+
+    <!-- Settings screen, Focue mode dialog radio button choices -->
+    <string name="pref_camera_focusmode_entry_auto">Auto</string>
+    <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
+    <string name="pref_camera_focusmode_entry_macro">Macro</string>
+
+    <!-- Default flash mode setting. -->
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>
+
+    <!-- Value for flash off setting -->
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
+
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">White balance</string>
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
+
+    <!-- Default color effect setting. -->
+    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
+
+    <!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title">Scene mode</string>
+
+    <!-- Settings menu, scene mode choices -->
+    <string name="pref_camera_scenemode_entry_auto">Auto</string>
+    <!-- Scene mode that takes an image quickly with little motion blur. -->
+    <string name="pref_camera_scenemode_entry_action">Action</string>
+    <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. -->
+    <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
+    <!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. -->
+    <string name="pref_camera_scenemode_entry_landscape">Landscape</string>
+    <!-- Scene mode that takes long exposures to capture night scenes without flash. -->
+    <string name="pref_camera_scenemode_entry_night">Night</string>
+    <!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. -->
+    <string name="pref_camera_scenemode_entry_night_portrait">Night portrait</string>
+    <!-- Scene mode to be used in a stage show. -->
+    <string name="pref_camera_scenemode_entry_theatre">Theatre</string>
+    <!-- Scene mode optimized for taking images on the beach. -->
+    <string name="pref_camera_scenemode_entry_beach">Beach</string>
+    <!-- Scene mode optimized for taking images in the snow. -->
+    <string name="pref_camera_scenemode_entry_snow">Snow</string>
+    <!-- Scene mode optimized for taking images in the sunset. -->
+    <string name="pref_camera_scenemode_entry_sunset">Sunset</string>
+    <!-- Scene mode for taking a photo as sharp as possible. -->
+    <string name="pref_camera_scenemode_entry_steadyphoto">Steady photo</string>
+    <!-- Scene mode optimized for taking images of fireworks. -->
+    <string name="pref_camera_scenemode_entry_fireworks">Fireworks</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party">Party</string>
+    <!-- Scene mode optimized for capturing the naturally warm color of scenes lit by candles. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_candlelight">Candlelight</string>
+
+    <!-- Restore settings item in preference -->
+    <string name="pref_restore_title">Camera settings</string>
+    <string name="pref_restore_detail">Restore defaults</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">Exposure</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+
+    <!-- Details dialog "OK" button. Dismisses dialog. -->
+    <string name="details_ok">OK</string>
+
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+
+    <!-- The title show on the zoom controller -->
+    <string name="zoom_control_title">Zoom</string>
+
+</resources>
