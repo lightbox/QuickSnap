@@ -1,15 +1,25 @@
-/**
- * Copyright (c) 2011 Lightbox
+/*
+ * Copyright (C) 2012 Lightbox
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
+
 package com.lightbox.android.camera;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
-import org.acra.ACRA;
-import org.acra.annotation.ReportsCrashes;
 
 import android.app.Application;
 import android.content.Context;
@@ -24,8 +34,6 @@ import com.lightbox.android.camera.util.MyLocation.LocationResult;
  * CameraApplication 
  * @author Nilesh Patel
  */
-// Key used for camera: a76653b8
-@ReportsCrashes(formUri = "http://www.bugsense.com/api/acra?api_key=a76653b8", formKey="")
 public class CameraApplication extends Application {
 	/** Used to tag logs */
 	@SuppressWarnings("unused")
@@ -46,10 +54,7 @@ public class CameraApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
-		
-		// ACRA
-		ACRA.init(this);
-		
+				
 		mOrientationEventListener = new MyOrientationEventListener(getApplicationContext());
 		mOrientationEventListener.enable();
 	}

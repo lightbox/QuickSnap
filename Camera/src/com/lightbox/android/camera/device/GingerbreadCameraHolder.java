@@ -14,6 +14,10 @@
  * limitations under the License.
  */
 
+/*
+ * Modified by Nilesh Patel
+ */
+
 package com.lightbox.android.camera.device;
 
 import static com.lightbox.android.camera.Util.Assert;
