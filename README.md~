@@ -5,4 +5,4 @@ Android camera implementation based off the official Android Gingerbread camera 
 
 Initially the Android Gingerbread camera source was forked, and then modified to become backwards compatible down to API level 7 (Eclair).
 
-The code was then further modified to support specific devices that did not work correctly. Primarily devices that had trouble with their front facing cameras.
+The code has been further modified to support specific devices and their front facing cameras.
